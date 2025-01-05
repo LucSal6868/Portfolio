@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wdth,wght@50..200,200..900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="../styles.css">
+
+  <title>METEORS</title>
+
+</head>
+
+<body class="meteors-colors">
+    
+    <section class="section-container">
+        <section class="section-row">
+            <div class="description-section">
+                Hi! im, 
+                <a href="../index.html" class="name">Lucas Salinas</a>
+                I'm a programmer and game developer based in Orlando, Florida. 
+                <br><br>
+                I am currently studying computer science at the University of Central Florida.
+                <br><br>
+                I make games, music, art and random projects in my free time.
+
+            </div>
+
+            <div class="links-section">
+
+                <a href="mailto:salinaslucas19@gmail.com">
+                    <i class="fa-solid fa-envelope"></i>
+                    <span>Email</span>
+                </a>
+                <br>
+
+                <a href="https://github.com/LucSal6868" target="_blank" rel="noopener noreferrer">
+                    <i class="fa-brands fa-github"></i>
+                    <span>Github</span>
+                </a>
+                <br>
+
+                <a href="https://www.linkedin.com/in/salinaslucas/" target="_blank" rel="noopener noreferrer">
+                    <i class="fa-brands fa-linkedin"></i>
+                    <span>Linkedin</span>
+                </a>
+                <br>
+
+                <a href="https://leafish.itch.io/" target="_blank" rel="noopener noreferrer">
+                    <i class="fa-brands fa-itch-io"></i>
+                    <span>Itch.io</span>
+                </a>
+
+            </div>
+        </section>
+        
+        <section class="pages-section">
+
+            <nav>
+                <button onclick="window.location.href='../index.html'"><- BACK</button>
+            </nav>
+
+            <hr><br>
+
+            <section class="project-page">
+                <h2>METEORS</h2>
+                <hr>
+                
+                
+                <div class="centered">
+                    <img src="../images/meteors.webp" alt="">
+                </div>
+
+                <p>A modern reimagining of the classic arcade game Asteroids.</p>
+                <br>
+                <p>I made this because I wondered what a game like asteroids could look like with if it was created today, without
+                    the technical limitations that the creators at the time must have faced.
+                    <br>
+                    This project made me face a lot of challenges, but was very satisfying to finally complete.
+                </p>
+                <br>
+
+                <div class="split">
+
+                    <div class="item">
+                        The game features computer drawn vector art, like the original game. Everything from the meteors to the UI is drawn using only lines.
+
+                    </div>
+
+                    <div class="item">
+                        <img src="../images/metui.png" alt="">
+                    </div>
+                    
+                </div>
+
+                <div class="split">
+
+                    <div class="item">
+                        <img src="../images/meteors.gif" alt="">
+                    </div>
+
+                    <div class="item">
+                        All the meteors in the game are randomly generated using a series of points around a radius, and are given a random number of holes.
+                        The game includes a meteor making interface to play with the values used to make them.
+                    </div>
+
+                    
+                </div>
+
+                The custom destructible terrain code allows the meteors to be destroyed shot by shot, spit into pieces, etc.
+                It even allows internal air holes, which is what makes the holes in the asteroids possible. 
+                (It involves a lot of very annoying math)   
+
+                <br><br>
+
+                It also includes "seamless screen wrapping", which means that the asteroids don't just teleport from edge to edge,
+                but, as one side of the asteroid crosses the border, it appears on the opposite end (kind of like the game "Portal").
+                <br><br>
+                <hr>
+
+                <div class="centered"><iframe frameborder="0" src="https://itch.io/embed/2807574?bg_color=000000&amp;fg_color=ffffff&amp;link_color=ffffff&amp;border_color=000000" width="552" height="167"><a href="https://leafish.itch.io/meteors">METEORS by Leafish</a></iframe></div>
+
+            </section>
+
+        </section>
+
+    </section>
+
+
+
+
+</body>
+
+</html>
