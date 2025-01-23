@@ -561,8 +561,6 @@ a:hover  .project-img{
 
     }
 
-    
-    
     .links-section
     {
 
@@ -588,5 +586,20 @@ a:hover  .project-img{
         --y: 100px;
         
     }
+    
 
+    
+    [class*="-colors"] .section-row {
+        display: none;
+    }
  }
+
+
+ @media (max-width: 1200px) {
+    .split {
+        width: 100%; 
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 32px; 
+    }
+}
